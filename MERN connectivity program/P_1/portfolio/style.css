@@ -1,0 +1,329 @@
+.portfolio-main-page-header-main-div {
+    pointer-events: none;
+    opacity: 1;
+    padding-right: 48px;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0));
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100%;
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background: #101010;
+    padding-left: 48px;
+}
+
+.portfolio-main-page-header-child-div-1 {
+    pointer-events: auto;
+    box-sizing: border-box;
+    column-gap: 12px;
+    display: flex;
+    align-items: normal;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(16, 16, 16);
+  }
+
+.portfolio-main-page-header-child-div-1-logo {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    vertical-align: middle;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    border-radius: 0px;
+    opacity: 1;
+    width: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.portfolio-main-page-header-child-div-1-text {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1px;
+    row-gap: 8px;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+.portfolio-main-page-header-child-div-1-text-1 {
+    box-sizing: border-box;
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 20px;
+    outline: rgb(242, 242, 242) none 0px;
+    color: rgb(242, 242, 242);
+    background-color: rgb(16, 16, 16);
+}
+
+.portfolio-main-page-header-child-div-1-text-2 {
+    box-sizing: border-box;
+    color: rgba(242, 242, 242, 0.5);
+    display: block;
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 12px;
+    outline: rgba(242, 242, 242, 0.5) none 0px;
+    background-color: rgb(16, 16, 16);
+
+}
+
+.portfolio-main-page-header-child-div-2 {
+    pointer-events: auto;
+    box-sizing: border-box;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background-color: rgba(242, 242, 242, 0.05);
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25.0001px 0px;
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-right: 6px;
+    position: relative;
+    transition: box-shadow 1s cubic-bezier(0.23, 1, 0.32, 1) 0s, border 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: 180px;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0.8px solid rgba(242, 242, 242, 0.1);
+}
+
+.portfolio-main-page-header-child-div-2-home,.portfolio-main-page-header-child-div-2-info {
+    background-color: rgba(0, 0, 0, 0);
+    outline: rgb(242, 242, 242) none 0px;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    border-radius: 18px;
+    color: rgb(242, 242, 242);
+    height: 36px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none solid rgb(242, 242, 242);
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: 80px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio-main-page-header-child-div-2-home-text {
+    background-color: rgba(0, 0, 0, 0);
+    outline: rgb(242, 242, 242) none 0px;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    border-radius: 18px;
+    color: rgb(242, 242, 242);
+    height: 36px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none solid rgb(242, 242, 242);
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    width: 80px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio-main-page-header-child-div-2-info-text {
+    box-sizing: border-box;
+    font-family: "Neue Montreal", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(242, 242, 242);
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.portfolio-main-page-header-child-div-3 {
+    pointer-events: auto;
+    box-sizing: border-box;
+    align-items: center;
+    column-gap: 8px;
+    display: flex;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+.portfolio-main-page-header-child-div-3-link-1,.portfolio-main-page-header-child-div-3-link-2,.portfolio-main-page-header-child-div-3-link-3  {
+    pointer-events: auto;
+    background-color: rgba(0, 0, 0, 0);
+    outline: rgb(0, 0, 238) none 0px;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    border-radius: 24px;
+    column-gap: 4px;
+    height: 48px;
+    justify-content: flex-start;
+    padding-left: 16px;
+    padding-right: 12px;
+    text-decoration: none solid rgb(0, 0, 238);
+    transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    align-self: auto;
+    color: rgb(0, 0, 238);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.portfolio-main-page-header-child-div-3-link-1-text,.portfolio-main-page-header-child-div-3-link-2-text,.portfolio-main-page-header-child-div-3-link-3-text {
+    box-sizing: border-box;
+    color: rgb(242, 242, 242);
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    text-decoration: none solid rgb(242, 242, 242);
+    background-color: rgba(242, 242, 242, 0.05);
+}
+
+.portfolio-main-page-header-child-div-3-link-1-icon,.portfolio-main-page-header-child-div-3-link-2-icon,.portfolio-main-page-header-child-div-3-link-3-icon {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    color: rgb(0, 0, 238);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(242, 242, 242, 0.05);
+}
+
+.window-main{
+    box-sizing: border-box;
+    backdrop-filter: none;
+    background-image: radial-gradient(circle farthest-side at 50% 0px, rgba(242, 242, 242, 0.2), rgba(0, 0, 0, 0));
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 8px 0px inset, rgba(0, 0, 0, 0.2) 0px 0px 60px 0px, rgba(0, 0, 0, 0.8) 0px 30px 120px 0px;
+    outline: rgba(242, 242, 242, 0.15) solid 0.8px;
+    outline-offset: -1px;
+    overflow: hidden;
+    padding: 8px;
+    display: block;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+
+.window-bar {
+  box-sizing: border-box;
+  align-items: center;
+  backdrop-filter: blur(40px);
+  background-image: linear-gradient(to right, rgba(242, 242, 242, 0.1), rgba(242, 242, 242, 0.5) 50%, rgba(242, 242, 242, 0.1));
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 4px;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 12px;
+  z-index: 5;
+  color: rgb(242, 242, 242);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: rgb(16, 16, 16);
+
+}
+
+.window-dots-wrapper {
+    display: flex;
+    
+    box-sizing: border-box;
+    backdrop-filter: none;
+    background-image: radial-gradient(circle farthest-side at 50% 0px, rgba(242, 242, 242, 0.2), rgba(0, 0, 0, 0));
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 8px 0px inset, rgba(0, 0, 0, 0.2) 0px 0px 60px 0px, rgba(0, 0, 0, 0.8) 0px 30px 120px 0px;
+    outline: rgba(242, 242, 242, 0.15) solid 0.8px;
+    outline-offset: -1px;
+    overflow: hidden;
+    padding: 8px;
+    color: rgb(242, 242, 242);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgb(16, 16, 16);
+}
+
+.dot-red {
+  box-sizing: border-box;
+  background-color: rgb(244, 107, 93);
+  border-radius: 100px;
+  height: 12px;
+  width: 12px;
+  box-shadow: rgb(244, 107, 93) 0px 0px 20px 2px;
+  color: rgb(242, 242, 242);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0.8px solid rgba(16, 16, 16, 0.25);
+
+}
+
+.dot-yellow {
+  box-sizing: border-box;
+  background-color: rgb(249, 189, 78);
+  border-radius: 100px;
+  height: 12px;
+  width: 12px;
+  box-shadow: rgb(249, 189, 78) 0px 0px 20px 2px;
+  color: rgb(242, 242, 242);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0.8px solid rgba(16, 16, 16, 0.25);
+
+}
+
+.dot-green {
+  box-sizing: border-box;
+  background-color: rgb(87, 195, 83);
+  border-radius: 100px;
+  height: 12px;
+  width: 12px;
+  box-shadow: rgb(87, 195, 83) 0px 0px 20px 2px;
+  color: rgb(242, 242, 242);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0.8px solid rgba(16, 16, 16, 0.25);
+
+}
+

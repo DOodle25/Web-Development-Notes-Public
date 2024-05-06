@@ -1,0 +1,17 @@
+.iframeele{
+    position: fixed;
+    z-index: 1000;
+    top : 30%;
+    left : 30%;
+    display : none;
+}
+.imagehein{
+    width:100%;
+}
+
+@media screen and (max-width: 600px) {
+    .imagehein{
+        width:50%;
+    }
+    
+}
