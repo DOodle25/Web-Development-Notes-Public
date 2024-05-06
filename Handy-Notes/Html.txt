@@ -1,0 +1,109 @@
+HTML (hyper text markup language):
+	for defining framework
+CSS (Cascading Style Sheets):
+	for styling
+JavaScript:
+	for making the page dynamic
+
+HTML:
+	not case-sensitive
+	The opening tag |The content | The closing tag (or) insert/embed(void elements)
+
+Contains
+	
+a> Tags
+b> Attributes 
+	Boolean attributes(can only have one value mostly same as name)
+c> Hyper Links
+	<a href="page1.html">Hyper link to go to page 1</a>.
+	1)Block level links
+		<a href="p1.html">
+  			<p>p1</p>
+		</a>
+	2)Image links
+		<a href="p1.html">
+  			<img src="logo.svg" alt="logo" />
+		</a>
+	Moving in Directories:
+		1)Same directory:
+			<a href="contacts.html">contacts page</a>
+		2)Moving down into subdirectories:
+			<a href="projects/index.html">project homepage</a>
+		3)Moving back up into parent directories:
+			<a href="../pdfs/project-brief.pdf">project brief</a>
+	Document fragments:
+		<a href="current.html#id1"></a>
+		<h1 id="id1"></h1>
+
+	Absolute URL:
+		 Points to a location defined by its absolute location on the web, including protocol and domain name.
+		directory called projects that sits inside the root of a web server, and the website's domain is https://www.example.com
+	Relative URL:
+		Points to a location that is relative to the file you are linking from
+	<img src "../images/picture.gif">(relative)
+	<img src "https://www.yourdomain.org/images/picture.gif">(absolute)
+	<img src "http://www.yourdomain.org/images/picture.gif">(absolute not secure)
+	
+	download:
+		<a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US" download ="name.exe">
+	Email:
+		<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+d> Entity References:
+	<	&lt;
+	>	&gt;
+	"	&quot;
+	'	&apos;
+	&	&amp;
+e> Comments:
+	
+Tags and Attributes:
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+
+<!doctype html>
+
+<html></html>:root element(wraps all element)
+
+<head></head>:not visible on web browser | links to css | meta data
+	<title></title>:title appears in browser 
+	<meta>:represents meta data about site 
+	<link rel="stylesheet" href="style.css"/> <script src="JavaScript.js" defer></script>(defer instructs browser to lead JavaScript after page has finished parsing the HTML)
+	
+<boday></body>:
+	<p>:define paragraph</p>
+
+	<h1>Header tags</h1>
+	<h2></h2>
+	<h3></h3>
+	<h4></h4>
+	<h5></h5>
+	<h6></h6>
+	
+	<pre>
+		print("it outputs the text as it is")
+		for i in range(0, n):
+			print(i)
+	</pre>
+	
+	<span style="font-size: 32px; margin: 21px 0; display: block;">To wrap content in style</span>
+	
+	<ul>unordered list</ul>
+		<li>list element</li>
+	<ol>ordered list</ol>	
+		<li>list element</li>
+	
+	<strong></strong>
+	<em>emphasis</em>
+	<b>bold
+	<i>italic
+	<u>underline
+	
