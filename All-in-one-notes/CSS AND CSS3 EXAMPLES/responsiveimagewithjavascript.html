@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Making Image Responsive using JavaScript</title> 
+    </head>
+    <body>
+        <img src="test.jpg" width="100%">
+        <p>Window size: <span id="size"></span> pixels</p>
+        <script>
+        window.onresize = function() {
+            document.getElementById("size").innerHTML = window.innerWidth;
+        };
+        </script>
+    </body>
+</html>
+

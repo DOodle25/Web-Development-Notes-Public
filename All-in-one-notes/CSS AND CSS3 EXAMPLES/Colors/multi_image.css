@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+@CHARSET "ISO-8859-1";
+
+div
+{
+     top:30px;
+	 width:900px;
+	 height:500px;
+	 background-color: cyan;
+	 background: url("images/image2.jpg") 
+	             left 
+	             top 
+	             no-repeat,
+	             url("images/image1.jpg") 
+	             right 
+ 	             bottom 
+	             no-repeat;
+	 background-orogin:content-box;  
+	           
+}

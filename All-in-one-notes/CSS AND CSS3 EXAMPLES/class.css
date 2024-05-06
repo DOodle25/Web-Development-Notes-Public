@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	font-family: calibri;
+	font-size: 30px;
+	color: blue;
+	text-decoration: underline;
+}
+
+.divCls {
+	font-family: verdana;
+	font-style: bold;
+	color: grey;
+	font-size: 15px;
+}
+
+.divPra {
+	font-family: verdana;
+	font-style: italic;
+	color: red;
+	font-size: 15px;
+}

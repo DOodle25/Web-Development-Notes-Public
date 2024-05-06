@@ -1,0 +1,28 @@
+<html>
+<title>CodeAve.com(Persistent Prompt)</title>
+<body bgcolor="#FFFFFF">
+
+<script language="JavaScript">
+<!--
+// Generates a JavaScript prompt window for input
+// with a message stating Enter some text below in order to proceed
+// Any text in between the quotes after the comma will appear 
+// in the text input area as a pre-fill
+user_input=prompt("Enter some text below in order to proceed","");
+// Check to see if there is user input 
+// typeof(user_input) will equal object when cancel is clicked
+// user_input will = be null if OK is clicked without entering text
+if (typeof(user_input)=="object" || user_input == "")
+{
+// If there is no input redirect the user back to the same
+// page for them to fill out the prompt again
+location.replace(location.href);
+}
+// When user input is detected write it to the browser
+document.write("<b>You typed:</b> " + user_input);
+-->
+</script>
+
+
+</body>
+</html>

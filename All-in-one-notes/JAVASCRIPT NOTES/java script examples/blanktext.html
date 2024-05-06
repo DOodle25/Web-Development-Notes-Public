@@ -1,0 +1,35 @@
+<html>
+<title>CodeAve.com(JavaScript: Text Input Validation)</title>
+<body bgcolor="#FFFFFF">
+<center>
+
+<script Language="JavaScript">
+<!-- 
+function Blank_TextField_Validator()
+{
+// Check the value of the element named text_name
+// from the form named text_form
+if (text_form.text_name.value == "")
+{
+// If null display and alert box
+alert("Please fill in the text field.");
+// Place the cursor on the field for revision
+text_form.text_name.focus();
+// return false to stop further processing
+return (false);
+}
+// If text_name is not null continue processing
+return (true);
+}
+-->
+</script>
+
+<form name="text_form" method="get" action="http://www.codeave.com/html/get.asp" 
+onsubmit="return Blank_TextField_Validator()">
+<input type="text" name="text_name" >
+<input type="submit" value="Submit">
+</form>
+
+</center>
+</body>
+</html> 

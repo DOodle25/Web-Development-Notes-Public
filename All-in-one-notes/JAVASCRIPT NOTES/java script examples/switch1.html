@@ -1,0 +1,34 @@
+
+<html>
+<head>
+<script language=javascript>
+function fun1()
+{
+var locat1=f1.t1.value;
+switch(locat1)
+{
+  case "north" : alert("Location is North")
+                 break;
+  case "south" : alert("Location is South")
+                 break;
+  case "east" : alert("Location is East")
+                 break;
+  case "west" : alert("Location is West")
+                 break;
+ default : alert("Enter Your Location")
+                 break;			 
+}
+}
+</script>
+</head>
+
+<body>
+<form name=f1>
+
+Enter Location<input type=text name=t1>
+<input type=button value=Location onclick=fun1()>
+
+</form>
+</body>
+</html>
+

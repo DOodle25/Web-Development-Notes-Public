@@ -1,0 +1,48 @@
+<html>
+<title>Radio Button Validation</title>
+<body bgcolor="#FFFFFF">
+
+<script Language="JavaScript">
+<!--
+function radio_button_checker()
+{
+// set var radio_choice to false
+var radio_choice = false;
+
+// Loop from zero to the one minus the number of radio button selections
+for (counter = 0;  counter < radio_form.radio_button.length; counter++)
+{
+// If a radio button has been selected it will return true
+// (If not it will return false)
+if (radio_form.radio_button[counter].checked)
+radio_choice = true; 
+}
+
+if (!radio_choice)
+{
+// If there were no selections made display an alert box 
+alert("Please select a letter.")
+return (false);
+}
+return (true);
+}
+
+-->
+</script>
+
+
+<form method="get" action="http://www.codeave.com/html/get.asp" 
+ onsubmit="return radio_button_checker()" name="radio_form">
+<input type="radio" value="A" name="radio_button">A
+<br>
+<input type="radio" value="B" name="radio_button">B
+<br>
+<input type="radio" value="C" name="radio_button">C
+<br>
+<input type="radio" value="D" name="radio_button">D
+<br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

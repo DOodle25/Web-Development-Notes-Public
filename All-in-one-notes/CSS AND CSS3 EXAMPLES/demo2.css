@@ -1,0 +1,20 @@
+
+
+body {
+	background: cyan;
+	color: green
+}
+
+h1 {
+	background: orange;
+	font-family: Arial, Impact, Sans serif;
+	color: blue;
+	font-size: 30pt;
+	text-align: center
+}
+
+h2, h3 {
+	background: gold;
+	font-family: Arial, Impact, Sans Serif;
+	color: red
+}

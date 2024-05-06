@@ -1,0 +1,91 @@
+<html>
+<title>Codeave.com(Current Date Form)</title>
+<body bgcolor="#FFFFFF">
+<center>
+<script language="JavaScript">
+<!--
+
+// Create a variable to contain the local date
+var right_now=new Date();
+
+// create an array for the month name
+var month_name = new Array (
+"January ",
+"February ",
+"March ",
+"April ",
+"May ",
+"June ",
+"July ",
+"August ",
+"September ",
+"October ",
+"November ",
+"December ");
+
+// Write the form action
+document.write("<form action=http://www.codeave.com/html/get.asp>")
+
+// Begin selection option for month
+document.write("<select name=the_month>")
+
+// Loop to create options for month with current month selected
+for (counter = 1; counter < 12; counter++)
+{
+var mth_select="";
+
+// If the counter = the current month then 
+// change the variable mth_select from null to selected
+if (counter == right_now.getMonth())
+{
+var mth_select="selected "
+}
+
+// Write out the options for month
+document.write ("<option " + mth_select + "value=" + counter  +">" + month_name[counter] + "</option>");
+}
+document.write("</select>");
+
+// Begin selection option for day
+document.write("<select name=the_day>")
+
+// Loop to create options for date with current date selected
+for (counter = 1; counter < 31; counter++)
+{
+var select="";
+if (counter == right_now.getDate())
+{
+var select="selected "
+}
+// Write out the options for date
+document.write ("<option " + select + "value=" + counter +">" + counter + "</option>");
+}
+document.write("</select>");
+
+
+// Begin selection option for year
+document.write("<select name=the_year>")
+// Loop to create options for year with current year selected 
+for (counter = right_now.getYear()-2; counter < right_now.getYear()+3; counter++)
+{
+
+// If the counter = the current month then 
+// change the variable date_select from null to selected
+var date_select="";
+if (counter == right_now.getYear())
+{
+var date_select="selected "
+}
+// Write out the options for year
+document.write ("<option " + date_select + "value=" + counter +">" + counter + "</option>");
+}
+document.write("</select>");
+
+// Write a submit button and close the form
+document.write("<input type=submit value=Submit></form>");
+-->
+</script>
+</center>
+
+</body>
+</html>

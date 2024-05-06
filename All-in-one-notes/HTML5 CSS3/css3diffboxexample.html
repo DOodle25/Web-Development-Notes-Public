@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+border:15px solid transparent;
+width:250px;
+padding:10px 20px;
+}
+
+#round
+{
+-webkit-border-image:url(border.png) 30 30 round; /* Safari 5 and older */
+-o-border-image:url(img_logo.jpg) 30 30 round; /* Opera */
+border-image:url(img_logo.jpg) 30 30 round;
+}
+
+#stretch
+{
+-webkit-border-image:url(img_logo.jpg) 30 30 stretch; /* Safari 5 and older */
+-o-border-image:url(img_logo.jpg) 30 30 stretch; /* Opera */
+border-image:url(img_logo.jpg) 30 30 stretch;
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> Internet Explorer does not support the border-image property.</p>
+<p>The border-image property specifies an image to be used as a border.</p>
+
+<div id="round">Here, the image is tiled (repeated) to fill the area.</div>
+<br>
+<div id="stretch">Here, the image is stretched to fill the area.</div>
+
+<p>Here is the image used:</p>
+<img src="img_logo.jpg">
+
+</body>
+</html>

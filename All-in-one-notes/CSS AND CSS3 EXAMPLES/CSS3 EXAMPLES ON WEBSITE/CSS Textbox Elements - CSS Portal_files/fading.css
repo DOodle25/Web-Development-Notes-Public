@@ -1,0 +1,44 @@
+.fading ul,
+.fading li > div {
+  display: block !important;
+  visibility: hidden;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: visibility 0s linear 0.2s, opacity 0.2s ease-in;
+  -moz-transition: visibility 0s linear 0.2s, opacity 0.2s ease-in;
+  -o-transition: visibility 0s linear 0.2s, opacity 0.2s ease-in;
+  -ms-transition: visibility 0s linear 0.2s, opacity 0.2s ease-in;
+  transition: visibility 0s linear 0.2s, opacity 0.2s ease-in;
+}
+.fading li:hover > ul,
+.fading li:hover > div,
+.fading li:hover > div ul {
+  visibility: visible;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.fading > li > a .bubble-top {
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+}
+.fading > li > a:hover .bubble-top {
+  -webkit-transform: translate3d(0, -3px, 0);
+  -moz-transform: translate3d(0, -3px, 0);
+  -o-transform: translate3d(0, -3px, 0);
+  -ms-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  transform: translateY(-3px);
+}

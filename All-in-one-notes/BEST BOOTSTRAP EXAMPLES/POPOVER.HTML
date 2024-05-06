@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example of Bootstrap 3 Popover</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+        placement : 'left'
+    });
+});
+</script>
+<style type="text/css">
+	.bs-example{
+    	margin: 150px 50px;
+    }
+	.popover-demo{
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <div class="popover-demo">
+        <button type="button" class="btn btn-primary" data-toggle="popover" 
+		title="Popover title" data-content="Default popover">Popover</button>
+        <button type="button" class="btn btn-success" data-toggle="popover" title="Popover title" data-content="Another popover">Another popover</button>
+        <button type="button" class="btn btn-info" data-toggle="popover" title="Popover title" data-content="A larger popover to demonstrate the max-width of the Bootstrap popover.">Large popover</button>
+        <button type="button" class="btn btn-warning" data-toggle="popover" title="Popover title" data-content="The last popover!">Last popover</button>
+    </div>
+	<p><strong>Note:</strong> Click on the buttons to display the popover.</p>
+</div>
+</body>
+</html>                            

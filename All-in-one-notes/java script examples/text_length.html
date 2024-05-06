@@ -1,0 +1,39 @@
+<html>
+<title>(JavaScript: Validate Text Input Length)</title>
+<body bgcolor="#FFFFFF">
+<center>
+
+<script Language="JavaScript">
+<!-- 
+function Length_TextField_Validator()
+{
+// Check the length of the value of the element named text_name
+// from the form named form_name if it's < 3 and > 10 characters
+// display a message asking for different input
+if ((form_name.text_name.value.length < 3) || (form_name.text_name.value.length > 10))
+{
+// Build alert box message showing how many characters entered
+mesg = "You have entered " + form_name.text_name.value.length + " character(s)\n"
+mesg = mesg + "Valid entries are between 3 and 10 characters.\n"
+mesg = mesg + "Please verify your input and submit again."
+alert(mesg);
+// Place the cursor on the field for revision
+form_name.text_name.focus();
+// return false to stop further processing
+return (false);
+}
+// If text_name is not null continue processing
+return (true);
+}
+-->
+</script>
+
+<form name="form_name" method="get" action="http://www.codeave.com/html/get.asp"  
+ onsubmit="return Length_TextField_Validator()">
+<input type="text" name="text_name">
+<input type="submit" value="Submit">
+</form>
+
+</center>
+</body>
+</html>

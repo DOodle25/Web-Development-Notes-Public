@@ -1,0 +1,37 @@
+Thank you for using and downloading from CodeAve.com (http://www.codeave.com)
+
+User Notes for Zip Files Downloaded from CodeAve.com
+
+The file(s) contained in this and any zip file downloaded from
+CodeAve.com essentially work all the same way.  All scripts
+and data should be placed in the same directory in your Personal 
+or Web Server directory.  Make certain that asp (if running an asp script)
+ is turned on and in many cases that user write authority is setup on that directory.
+(This is especially important for any writing to a an access db or
+a text file on your server).  If there is an Access db inside this 
+zip file it also needs to reside in the same directory as the .asp file.
+If within the zip file there is another zip file make the contents of that 
+second zip a sub-directory. (Typically any scripts that involve images
+are dependant on an image sub-directory)  
+
+All Access db's are in Access2000 format.
+If you're not using Access2000 you will have problems.
+(What can we do about it?  Nothing it's a Microsoft thing.)
+Please visit this location to download the Access97 version
+on most all our databases
+http://codeave.com/asp/access97.asp
+
+
+Bugs (if any) should be mailed to
+info@codeave.com
+(Please list the name of the file that the error
+message occurred on and the specific error that occurred
+and where on PWS a virtual or whatever server you may be running
+and if possible the link it was downloaded from)
+
+If you find any of the code at CodeAve.com useful 
+please pass the word on.  
+
+If you're using code from CodeAve.com on your site mail us
+the details to be listed in our (upcoming) links section
+and help drive hits from here to your site.

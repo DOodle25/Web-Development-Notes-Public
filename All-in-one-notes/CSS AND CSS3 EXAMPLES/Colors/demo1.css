@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+.site-wrapper {
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 500px;
+	width: 800px;
+	background-color: lightgrey;
+}
+
+.div1 {
+	height: 150px;
+	width: 800px;
+	background-color: red;
+}
+
+.div2 {
+	height: 150px;
+	width: 800px;
+	background-color: blue;
+}
+
+.div3 {
+	height: 150px;
+	width: 800px;
+	background-color: green;
+}

@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+h1
+{
+	margin-left:10px;
+	width:950px;
+	background-color: powderblue;
+	colour:#FF00FF;
+	font-family: calibri;
+}
+
+.site-wrapper
+{
+	margin-left:10px;
+	height:480px;
+	width:950px;
+	border: solid black;
+	background-image: url("images/flower.PNG");
+	background-repeat: space repeat;
+	
+}

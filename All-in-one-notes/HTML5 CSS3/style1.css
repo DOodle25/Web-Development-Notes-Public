@@ -1,0 +1,24 @@
+
+header, footer, section, nav{
+display:blocks }
+
+.container{
+margin:0 auto;
+width:950px;
+margin-top:20px;background-color:slyblue }
+
+#nav ul {
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px; }
+#nav ul li {
+display: inline-block;
+margin-right:10px; }
+
+#content {
+float:left;
+width:700px; }
+#sidebar {
+float:right;
+width:300px; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of Resizing Elements with CSS3</title>
+<style type="text/css">
+    p, div, textarea {
+        width: 300px;
+        min-height: 100px;
+        overflow: auto;
+        border: 1px solid black;
+    }
+    p {
+       resize: horizontal; 
+    }
+    div {
+        resize: both;
+    }
+    textarea {
+        resize: none;
+    }
+</style>
+</head>
+<body>
+    <div>Div element resizable in both directions</div>
+    <p>Horizontally resizable paragraph element</p>
+    <textarea>Non-resizable textarea</textarea>
+</body>
+</html> 
+                            

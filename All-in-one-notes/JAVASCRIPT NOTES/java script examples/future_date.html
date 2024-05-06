@@ -1,0 +1,80 @@
+<html>
+<title>CodeAve.com(Future Date Validation)</title>
+<body bgcolor="#FFFFFF">
+<center>
+<script Language="JavaScript">
+<!--
+// Function to validate the dropdown form input
+function dropdown_validator()
+{
+// Variables for the current date, year and month
+var right_now=new Date();
+var the_year=right_now.getYear();
+var the_month=right_now.getMonth();
+
+// Check for input in both the month and year fields
+if (dropdown_form.u_month.value == "" || dropdown_form.u_year.value == "")
+{
+alert("Please select a month and year");
+return false;
+}
+
+// Check to see if the request is within the current year and month
+if (dropdown_form.u_year.value == the_year && dropdown_form.u_month.value > the_month+1)
+{
+alert("Please check the month of your request.");
+return (false);
+}
+
+
+// Check to see if the year request is  calid
+if (dropdown_form.u_year.value > the_year)
+{
+alert("Please check the year of your request.");
+return (false);
+}
+
+// Comment out the alert below and change the location to your destination
+alert("The request is valid\nMonth = "+ dropdown_form.u_month.value +"\nYear = "+ dropdown_form.u_year.value);
+// window.location.replace= dropdown_form.u_month.value + dropdown_form.u_year.value
+
+}
+-->
+</script>
+<form method="get" action="#" 
+ onsubmit="return dropdown_validator()" name="dropdown_form">
+Select a month and year<br>
+All requests with future dates will be denied<br>
+<select size="1" name="u_month">
+<option value="">Month</option>
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+</select>
+
+<select size="1" name="u_year">
+<option value="">Year</option>
+<option value=2002>2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+
+</select>
+<input type="submit" value="Submit">
+</form>
+</center>
+</body>
+</html>
+
+
+

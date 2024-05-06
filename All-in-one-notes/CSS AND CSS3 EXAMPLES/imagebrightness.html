@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of CSS3 Brightness Filter Effect</title>
+<style type="text/css">
+img.bright {
+    filter: brightness(200%);
+}
+img.dark {
+    filter: brightness(50%);
+}
+/* Some CSS to beautify this example */
+table td{
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="octo1.jpg" alt="Octopus" width=100 height=100>
+            </td>
+             <td>
+                <img class="dark" src="octo1.jpg" alt="Octopus" width=100 height=100>
+            </td>
+            <td>
+                <img class="bright" src="octo1.jpg" alt="Octopus" width=100 height=100>
+            </td>
+        </tr>
+        <tr>
+            <td>Original Image</td>
+            <td>brightness(50%)</td> 
+            <td>brightness(200%)</td>                       
+        </tr>
+    </table>
+</body>
+</html>                            

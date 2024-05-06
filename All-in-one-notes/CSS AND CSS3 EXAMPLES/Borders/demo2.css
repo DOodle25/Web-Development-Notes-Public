@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+.d1 {
+	border-style: solid;
+	border-color: red;
+	padding: 10px, 40px;
+	background-color: lightgrey;
+	resize: both;
+	overflow: auto;
+	height: 50px;
+	width: 80px;
+}
+
+.d2 {
+	background-color: lightgrey;
+	border-style: solid;
+	border-color: red;
+	padding: 10, 20;
+	border-radius: 25px;
+	height: 50px;
+	width: 80px;
+	text-align: center;
+}
+
+.d3 {
+	background-color: lightgrey;
+	border-style: solid;
+	border-color: red;
+	box-shadow: 10px 10px 5px #888888;
+	height: 50px;
+	width: 80px;
+}
+
+.d4 {
+	height: 50px;
+	width: 80px;
+	border-image: url(images/flower.PNG) 30 30 round;
+}

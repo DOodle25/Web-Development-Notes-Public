@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.site-wrapper
+{
+	margin-top:20px;
+	margin-left:20px;
+	height:500px;
+	width: 800px;
+	background-color: lightgrey;
+	background-image: url("images/flower.PNG");
+	/* background-repeat: no-repeat; 
+	background-repeat: repeat-x;
+	background-repeat: repeat-y*/
+	background-repeat: no-repeat;
+	/* background-position: top right; 
+	background-position: bottom right;
+	background-position: bottom left;*/
+}

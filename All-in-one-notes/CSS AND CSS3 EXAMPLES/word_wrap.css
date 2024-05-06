@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+.p1 {
+	color: red;
+	width: 11em;
+	border: 1px solid #000000;
+}
+
+.p2 {
+	color: blue;
+	width: 11em;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+.p3 {
+	color: green;
+	width: 11em;
+	border: 1px solid #000000;
+	word-wrap: normal;
+}

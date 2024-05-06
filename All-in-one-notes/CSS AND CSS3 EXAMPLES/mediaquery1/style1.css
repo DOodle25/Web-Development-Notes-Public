@@ -1,0 +1,52 @@
+p{
+ font-family: arial,san-serif;   
+    font-size: 13px;
+    font-color: black;
+}
+
+h1{
+ font-size:30px;   
+}
+
+@media screen and (min-width:761px){
+    body{
+    background-color:white;
+}
+ h1{
+    color:red;
+}    
+}
+
+@media screen and (max-width:760px){
+       body{ background-color: #333;
+    }
+ h1{
+    color:red;
+}  
+p{
+    color: white;
+}
+}
+
+@media screen and (max-width:480px){
+       body{ background-color: #807f83;
+    }
+ h1{
+    color:white;
+}  
+p{
+    color: white;
+}
+}
+
+@media screen and (max-width:360px){
+       body{ background-color: #0096d6;
+    }
+ h1{
+    color:white;
+    font-size:25px;
+}  
+p{
+    color: white;
+}
+}

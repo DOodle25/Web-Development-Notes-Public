@@ -1,0 +1,47 @@
+<html>
+<title>CodeAve.com(JavaScript: Disallow Dropdown First Choice)</title>
+<body bgcolor="#FFFFFF">
+
+<script Language="JavaScript">
+<!--
+function confirm_dropdown()
+{
+
+// Check to see if the dropdown value is is the first choice
+  if (the_form.dropdown.selectedIndex == 0)
+ {
+
+// If the first choice is selected display an alert box
+// stating the first choice is not a valid selection
+  alert("Please select a movie type.");
+
+// Focus on the dropdown menu after OK is clicked from the alert box
+  the_form.dropdown.focus();
+  return (false);
+  }
+// A choice other than the first was selected
+// cotinue processing the form request
+  return (true);
+}
+//--></script>
+
+<form name="the_form" 
+ method="get" 
+ action="http://www.codeave.com/html/get.asp" 
+ onsubmit="return confirm_dropdown()">
+
+<select size="1" name="dropdown">
+<option value="Favorite Movie Type">Favorite Movie Type</option>
+<option value="Drama">Drama</option>
+<option value="Comedy">Comedy</option>
+<option value="Action">Action</option>
+<option value="Romance">Romance</option>
+<option value="Documentary">Documentary</option>
+<option value="Sci-Fi">Sci-Fi</option>
+<option value="War">War</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

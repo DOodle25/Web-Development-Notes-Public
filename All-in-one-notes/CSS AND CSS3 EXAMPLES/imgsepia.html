@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of CSS3 Sepia Filter Effect</title>
+<style type="text/css">
+img.complete-sepia {
+    filter: sepia(100%);
+}
+img.partial-sepia {
+    filter: sepia(30%);
+}
+/* Some CSS to beautify this example */
+table td{
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="2.jpg" alt="Parrot">
+            </td>
+             <td>
+                <img class="partial-sepia" src="2.jpg" alt="Parrot">
+            </td>
+            <td>
+                <img class="complete-sepia" src="2.jpg" alt="Parrot">
+            </td>
+        </tr>
+        <tr>
+            <td>Original Image</td>
+            <td>sepia(30%)</td> 
+            <td>sepia(100%)</td>
+        </tr>
+    </table>
+</body>
+</html>                            

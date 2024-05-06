@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	color: grey;
+	font-family: calibri;
+}
+
+p {
+	color: blueViolet;
+	font-family: calibri;
+	font-size: 15px;
+}

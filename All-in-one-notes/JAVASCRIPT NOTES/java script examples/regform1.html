@@ -1,0 +1,53 @@
+<html>
+<head>
+<script language=javascript src=valid1.js>
+/*
+function fun2()
+{
+f1.t1.value="";
+}
+
+function fun1()
+{
+var name=f1.t1.value;
+var age=f1.t2.value;
+
+     if(name=="")
+	 {
+	 alert("Please Enter Name");
+	 f1.t1.focus();
+	 return false;
+	 }
+	 
+	 else if(age=="")
+	 {
+	 alert("Please Enter Age");
+	 f1.t2.focus();
+	 return false;
+	 }
+	 else
+	 {
+	 alert("Proceed")
+	 }
+}
+*/
+</script>
+</head>
+
+<body>
+<pre>
+						Registration Form
+						
+ <form name=f1 method=post onsubmit="return fun1()" action=http://localhost/link1.php>						
+ 
+ Name   <input type=text name=t1 value="Your Name" onclick=fun2() style=background-color:pink>
+ 
+ Age    <input type=text name=t2 style=background-color:pink>
+ 
+ Salary <input type=text name=t3 style=background-color:pink>
+ 
+ <input type=submit value=submit>					
+</form>
+</pre>
+</body>
+</html>

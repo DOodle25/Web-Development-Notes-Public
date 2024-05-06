@@ -1,0 +1,24 @@
+<html>
+<title>(JavaScript: Textbox Change OnClick)</title>
+<body bgcolor="#FFFFFF">
+
+<script language=JavaScript>
+<!-- 
+function clear_textbox()
+{
+if (document.text_form.u_input.value == " Enter Your Search Here ")
+document.text_form.u_input.value = "";
+}	
+-->
+</script>
+
+
+<form name="text_form" action="http://www.codeave.com/html/post.asp" method=post>
+<input name=u_input onFocus=clear_textbox() value=" Enter Your Search Here ">
+<input type=submit value=Submit>
+<input type=reset>
+</form>
+
+
+</body>
+</html>

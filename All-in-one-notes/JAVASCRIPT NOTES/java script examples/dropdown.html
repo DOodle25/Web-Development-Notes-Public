@@ -1,0 +1,33 @@
+<html>
+<title>CodeAve.com(JavaScript:Dropdown Menu)</title>
+<body bgcolor="#FFFFFF">
+
+<script language="JavaScript">
+function pulldown_menu()
+{
+// Create a variable url to contain the value of the 
+// selected option from the the form named pulldown and variable selectname
+var url = document.pulldown.selectname.options[document.pulldown.selectname.selectedIndex].value
+
+// Re-direct the browser to the url value
+window.location.href = url        
+}
+</script>
+
+<center>
+
+<form name="pulldown">
+<select name="selectname" SIZE="1">
+<option value="">Select A Site</option>
+<option value="http://www.yahoo.com">Yahoo.com</option>            
+<option value="http://www.goto.com">Goto.com</option>            
+<option value="http://www.altavista.com">AltaVista</option>            
+<option value="http://www.go.com">Go.com</option>            
+<option value="http://www.msn.com">MSN.com</option>            
+</select>
+<input type="button" value="Go" onClick="JavaScript:pulldown_menu()">
+</form>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Example of CSS3 Border Images</title>
+<style type="text/css">
+	.box {
+		width: 300px;
+		height: 150px;
+		border: 15px solid transparent;
+		-webkit-border-image: url("/examples/images/border.png") 30 30 round; /* Safari 3.1-5 */
+		-o-border-image: url("/examples/images/border.png") 30 30 round; /* Opera 11-12.1 */
+		border-image: url("1.jpg") 30 30 round;
+	}
+</style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>                            

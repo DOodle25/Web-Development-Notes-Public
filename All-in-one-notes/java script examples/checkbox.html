@@ -1,0 +1,74 @@
+<html>
+<title>CodeAve.com(Checkbox Input Validation)</title>
+<body bgcolor="#FFFFFF">
+
+<script Language="JavaScript">
+<!--
+function checkbox_checker()
+{
+
+// set var checkbox_choices to zero
+
+var checkbox_choices = 0;
+
+// Loop from zero to the one minus the number of checkbox button selections
+for (counter = 0;  counter < checkbox_form.checkbox.length; counter++)
+{
+
+// If a checkbox has been selected it will return true
+// (If not it will return false)
+if (checkbox_form.checkbox[counter].checked)
+{ checkbox_choices = checkbox_choices + 1; }
+
+}
+
+
+if (checkbox_choices > 3 )
+{
+// If there were more than three selections made display an alert box 
+msg="You're limited to only three selections.\n"
+msg=msg + "You have made " + checkbox_choices + " selections.\n"
+msg=msg + "Please remove " + (checkbox_choices-3)  + " selection(s)."
+alert(msg)
+return (false);
+}
+
+
+if (checkbox_choices < 3 )
+{
+// If there were less then selections made display an alert box 
+alert("Please make three selections. \n" + checkbox_choices + " entered so far.")
+return (false);
+}
+
+// If three were selected then display an alert box stating input was OK
+alert(" *** Valid input of three outfielders was entered. ***");
+return (true);
+}
+
+-->
+</script>
+
+
+<form method="get" action="#" 
+ onsubmit="return checkbox_checker()" name="checkbox_form">
+<input type="checkbox" value="Hank Aaron" name="checkbox">Hank Aaron<br>
+<input type="checkbox" value="Ted Williams" name="checkbox">Ted Williams<br>
+<input type="checkbox" value="Hank Greenberg" name="checkbox">Hank Greenberg<br>
+<input type="checkbox" value="Stan Musial" name="checkbox">Stan Musial<br>
+<input type="checkbox" value="Willie Mays" name="checkbox">Willie Mays<br>
+<input type="checkbox" value="Joe DiMaggio" name="checkbox">Joe DiMaggio<br>
+<input type="checkbox" value="Ricky Henderson" name="checkbox">Ricky Henderson<br>
+<input type="checkbox" value="Barry Bonds" name="checkbox">Barry Bonds<br>
+<input type="checkbox" value="Curt Flood" name="checkbox">Curt Flood<br>
+<input type="checkbox" value="Roger Maris" name="checkbox">Roger Maris<br>
+<input type="checkbox" value="Reggie Jackson" name="checkbox">Reggie Jackson<br>
+<input type="checkbox" value="Kirk Gibson" name="checkbox">Kirk Gibson<br>
+<input type="checkbox" value="Tony Gwynn" name="checkbox">Tony Gwynn<br>
+<input type="checkbox" value="George Foster" name="checkbox">George Foster<br>
+<input type="checkbox" value="Andre Dawson" name="checkbox">Andre Dawson<br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

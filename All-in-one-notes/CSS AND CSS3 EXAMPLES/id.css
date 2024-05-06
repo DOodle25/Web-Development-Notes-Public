@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+h1 {
+	font-family: calibri;
+	font-size: 30px;
+	color: blue;
+	text-decoration: underline;
+}
+
+div#d1 {
+	font-family: verdana;
+	color: violet;
+	font-size: 15px;
+}
+
+div#d2 {
+	font-family: verdana;
+	color: indigo;
+	font-size: 15px;
+}
+
+div#d3 {
+	font-family: verdana;
+	color: blue;
+	font-size: 15px;
+}
+
+p#p1 {
+	font-family: terbuchet-ms;
+	color: green;
+	font-size: 15px;
+}
+
+p#p2 {
+	font-family: terbuchet-ms;
+	color: red;
+	font-size: 15px;
+}
+
+p#p3 {
+	font-family: terbuchet-ms;
+	color: orange;
+	font-size: 15px;
+}
+
+p#p4 {
+	font-family: terbuchet-ms;
+	color: yellow;
+	font-size: 15px;
+}
+
+p#p5 {
+	font-family: terbuchet-ms;
+	color: powderblue;
+	font-size: 15px;
+}

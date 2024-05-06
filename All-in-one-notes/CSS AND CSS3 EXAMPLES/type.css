@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+h1
+{
+  font-family:calibri;
+  font-size:30px;
+  color:blue;
+}
+
+div
+{
+  font-family:verdana;
+  color:pink;
+  font-size:15px;
+}
+
+p
+{
+  font-family:terbuchet-ms;
+  color:grey;
+  font-size:15px;
+}

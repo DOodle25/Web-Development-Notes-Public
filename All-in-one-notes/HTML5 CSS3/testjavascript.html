@@ -1,0 +1,43 @@
+
+<html>
+<head>
+<script>
+
+function jfun1()
+{
+var name=f1.t1.value;
+var email=f1.t2.value;
+
+if(name=="")
+{
+alert("Name Required")
+f1.t1.focus();
+return false;
+
+}
+else
+{
+alert("Go Ahead")
+return true;
+}
+}
+
+</script>
+
+
+</head>
+<body>
+
+
+
+<form name=f1 method=post onsubmit="return jfun1()" action=http://localhost/link1.php>
+<pre style=background-color:pink;width:300;height:150>
+
+Enter Name  <input type=text name=t1>
+
+Enter Email <input type=text name=t2>
+
+		<input type=submit>
+</pre>
+</body>
+</html>

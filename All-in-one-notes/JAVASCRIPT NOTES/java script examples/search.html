@@ -1,0 +1,41 @@
+<html>
+
+<body bgcolor="#FFFFFF">
+
+<script language="JavaScript">
+<!--
+function search_site()
+{
+// Build the destination url by placing the selection option first
+var url = document.search_form.site.options[document.search_form.site.selectedIndex].value 
+// Append the text box input to the search url for the selected site
+url = url + document.search_form.u_search.value;
+// Change the the browser location to the new url
+window.location.href = url;
+}
+-->
+</script>
+
+<center>
+
+<form name="search_form">
+<input tpye="text" name="u_search">
+<select name="site" size="1">
+<option value="http://search.yahoo.com/bin/search?p=">Yahoo</option>
+<option value="http://www.go.com/Titles?qt=">Go.com</option>
+<option value="http://www.goto.com/d/search/?Keywords=">GoTo.com</option>
+<option value="http://search.excite.com/search.gw?search=">Excite</option>
+<option value="http://www.lycos.com/srch/?query=">Lycos</option>
+<option value="http://hotbot.lycos.com/?MT=">HotBot</option>
+<option value="http://www.altavista.com/cgi-bin/query?&q=">Alta Vista</option>
+<option value="http://www.webcrawler.com/cgi-bin/WebQuery?searchText=">WebCrawler</option>
+<option value="http://www.mamma.com/Mamma?&query=">Mamma.com</option>
+<option value="http://search.aol.com/dirsearch.adp?query=">AOL.com</option>
+<option value="http://search.msn.com/results.asp?q=">MSN.com</option>
+</select>
+<input type="button" value="Search" onClick="JavaScript:search_site()">
+</form>
+
+</center>
+</body>
+</html>

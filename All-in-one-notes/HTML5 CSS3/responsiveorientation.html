@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<style>
+img.ri
+{
+	position: absolute;
+	max-width: 80%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+	box-shadow: 20 10px 6px rgba(0,0,0,0.9);
+}
+
+@media screen and (orientation: portrait) {
+  img.ri {
+      max-width: 90%;
+  }
+}
+@media screen and (orientation: landscape) {
+  img.ri {
+      max-height: 90%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>A responsive centered image</h1>
+<img src="test.jpg" class="ri">

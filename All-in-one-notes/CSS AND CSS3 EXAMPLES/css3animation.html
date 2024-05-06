@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+width:400px;
+height:500px;
+background:red;
+animation:myfirst 5s;
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:green;}
+to {background:red;}
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

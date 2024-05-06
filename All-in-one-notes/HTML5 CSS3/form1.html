@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Profile Page</title> 
+	<script>
+	function jfun1()
+	{
+	var name=form1.txt1.value;
+	var email=form1.txt2.value;
+	if(name=="")
+	{
+	  alert("Name Required!!!")
+	  form1.txt1.focus();
+	  return false
+	}
+	
+	else if(email=="")
+	{
+	  alert("Email Required!!!")
+	  form1.txt2.focus();
+	  return false
+	}
+	else
+	{
+	return true;
+	alert("Go Ahead!!!")
+	}
+	}
+	
+	</script>
+    </head>
+	<body>
+	<center>
+	<div style=background-color:lightgrey;width:60%>
+	<pre>
+	<form name=form1 onsubmit="return jfun1()" action=http://localhost/1.php>
+	
+	Name			<input type=text placeholder="Your Name Here" name=txt1>
+	
+	Password		<input type=password placeholder="Your password Here" 
+	>
+	
+	Gender  Male<input type=radio name=r1>  Female<input 
+	type=radio name=r1>
+	
+	Email			<input type=email placeholder="Email" name=txt2>
+	
+	Date			<input type=date>
+	
+	Select Color	<input type=color>
+	
+	Enter URL		<input type=url>
+	
+	Hobbies 		Music <input type=checkbox>
+				Dance <input type=checkbox>
+				ports <input type=checkbox>
+
+	Courses		<select>
+					<option> Java Language</option>
+					<option> PHP Language</option>
+					<option> DOTNET Language</option>
+				</select>
+	
+	Remarks :
+		<textarea rows=5 cols=30></textarea>
+		
+		<input type="number" name="quantity" step="2" min="20" max="30">
+		
+		<input type="range" name="temperature" min="15" max="25" step="0.5" value="18.5">
+		For Offfice use Only<input type=text readonly value="For Offfice use Only">
+		
+		Select Your File<input type=file>
+	
+			<input type=submit value=submit>
+	</pre>
+	</div>
+	</form>
+        
+    </body>
+</html>
+
